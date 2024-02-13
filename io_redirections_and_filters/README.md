@@ -7,7 +7,7 @@ La commande "echo "Hello, World" permet ecrire "Hello, World", suivi d'une nouve
 ### Tâche 1
 La commande qui affiche un smiley confus "(Ôo)' est "echo "(Ôo)'".
 ### Tâche 2
-
+La commande qui permet d'affiche le contenue du fichier /etc/passwd est "cat /etc/passwd"
 ### Tâche 3
 
 ### Tâche 4
