@@ -48,7 +48,8 @@ Pour créer un dossier avec les permissions 751, il faut réaliser la commande "
 "chown -R vincent:staff *". "chown" est utilisé pour changer le propriétaire et le groupe propriétaire. "-R" pour effectuer la modification de manière récursive. "vincent:staff" spécifie le nouveau propriétaire et groupe propriétaire pour les fichiers et répertoires. "*" spécifie tous les fichiers et répertoires du répertoire de travail.
 
 ### Tâche 15
-À compléter.
+Pour changer le propriétaire et le groupe propriétaire d'un lien symbolique la commande est "chown -h vincent:staff _hello" option -h est ajoutée à la commande chown, spécifiant que la modification doit être appliquée au lien symbolique lui-même plutôt qu'à la cible du lien.
+
 
 ### Tâche 16
 À compléter.
