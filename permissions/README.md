@@ -14,9 +14,9 @@ Le groupe a les permissions de lecture et d'exécution (r-x)
 Les autres utilisateurs ont les permissions d'écriture et d'exécution (wx)
 les chiffres pour représenter les différentes combinaisons de permissions (lecture = 4, écriture = 2, exécution = 1). donc la commande est "chmod 753 hello"
 tasks 10:  La commande "chmod --reference=olleh hello" "chmod" est une commande utilisée pour modifier les permissions des fichiers. "--reference=olleh" spécifie que les permissions du fichier "olleh" doivent être utilisées comme référence. "hello" est le fichier auquel les mêmes permissions seront appliquées.
-tasks 11:
-tasks 12:
-tasks 13:
+tasks 11: la commande est "chmod -R a+X *" "-R" pour récursive "X" pour les permissions d'exécution sur les dossier "*" pous ciblé tous les sous-répertoires et fichiers "a" pour tous les utilisateurs (all) on aurrait aussi pu utiliser ugo pour user + group + ownership.
+tasks 12: Pour crée un dossier avec les permission 751 il faut realisé la commande "mkdir -m 751 my_dir" l'option -m permet de spécifier les permissions du nouveau répertoire.
+tasks 13: "chown :school hello" "chown" est la commande utilisée pour modifier le propriétaire et le groupe d'un fichier ou d'un répertoire. ":school" est l'argument de la commande qui spécifie le nouveau groupe pour le fichier "hello"."hello" est le nom du fichier pour lequel on souhaitez modifier le propriétaire.
 tasks 14:
 tasks 15:
 tasks 16:
