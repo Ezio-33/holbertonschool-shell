@@ -1,7 +1,7 @@
 tasks 0: la commande "su" permet de changer d'utilisateur.
 tasks 1: La commande pour afficher le nom d'utilisateur effectif de l'utilisateur actuel est "whoami".
 tasks 2: La commande "groups" permet d'afficher tous les groupes auxquels l'utilisateur actuel appartient.
-tasks 3:
+tasks 3: Pour changer le propriétaire d'un fichier sur "sudo chown betty hello" sudo permet de passer en mode administrateur et chown permet de changer le propriétair.
 tasks 4:
 tasks 5:
 tasks 6:
