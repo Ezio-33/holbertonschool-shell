@@ -12,7 +12,7 @@ La commande qui permet de définir les permissions Propriétaire : aucune permis
 tasks 9: Dans "-rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello",Le propriétaire a les permissions de lecture, écriture et exécution (rwx)
 Le groupe a les permissions de lecture et d'exécution (r-x)
 Les autres utilisateurs ont les permissions d'écriture et d'exécution (wx)
-les chiffres pour représenter les différentes combinaisons de permissions (lecture = 4, écriture = 2, exécution = 1). donc la commande est "chmod 751 hello"
+les chiffres pour représenter les différentes combinaisons de permissions (lecture = 4, écriture = 2, exécution = 1). donc la commande est "chmod 753 hello"
 tasks 10:  La commande "chmod --reference=olleh hello" "chmod" est une commande utilisée pour modifier les permissions des fichiers. "--reference=olleh" spécifie que les permissions du fichier "olleh" doivent être utilisées comme référence. "hello" est le fichier auquel les mêmes permissions seront appliquées.
 tasks 11:
 tasks 12:
