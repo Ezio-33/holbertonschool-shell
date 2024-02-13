@@ -52,4 +52,4 @@ Pour changer le propriétaire et le groupe propriétaire d'un lien symbolique la
 
 
 ### Tâche 16
-À compléter.
+La commande pour change le propriétaire du fichier hello en vincent uniquement s'il est détenu par l'utilisateur guillaume est "chown --from=guillaume vincent hello"
