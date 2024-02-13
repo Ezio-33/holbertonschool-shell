@@ -1,5 +1,5 @@
 tasks 0: la commande "su" permet de changer d'utilisateur.
-tasks 1: La commande pour afficher le nom d'utilisateur effectif dest "id".
+tasks 1: La commande pour afficher le nom d'utilisateur effectif de l'utilisateur actuel est "whoami"
 tasks 2:
 tasks 3:
 tasks 4:
