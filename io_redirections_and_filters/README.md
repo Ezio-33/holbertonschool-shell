@@ -9,7 +9,7 @@ La commande qui affiche un smiley confus "(Ôo)' est "echo "(Ôo)'".
 ### Tâche 2
 La commande qui permet d'affiche le contenue du fichier /etc/passwd est "cat /etc/passwd"
 ### Tâche 3
-
+La commande qui permet d'affiche le contenue des fichiers est "cat /etc/passwd /etc/hosts" je met un espace entre les deux pour cible les deux fichiers.
 ### Tâche 4
 
 ### Tâche 5
