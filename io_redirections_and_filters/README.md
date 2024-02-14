@@ -21,7 +21,7 @@ j'ai utiliser la commande "head -n 3 iacta | tail -n 1" Explication:  head -n 3 
 "|" (pipe) prend la sortie de la commande précédente (dans ce cas, la sortie des 3 premières lignes de "iacta") et la transmet comme entrée à la commande suivante.
 "tail -n 1" est utilisée pour afficher les dernières lignes d'un fichier. 
 ### Tâche 7
-commande "echo "Holberton School" > '\*\\'\''"Holberton School"\'\''\\*$\?\*\*\*\*\*:)'" "echo" permet d'ercire un texte choisi ">" permet d'ecrire et ecraser le contenue du fichier qui suivra la commande. si le fichier n'existe pas il le crée.
+commande "echo "Best School" > '\*\\'\''"Best School"\'\''\\*$\?\*\*\*\*\*:)'" "echo" permet d'ercire un texte choisi ">" permet d'ecrire et ecraser le contenue du fichier qui suivra la commande. si le fichier n'existe pas il le crée.
 ### Tâche 8
 commande: "ls -la > ls_cwd_content" "ls" liste le contenu du répertoire courant "l" Affiche les détails de chaque fichier ou répertoire. "a" Inclut les fichiers cachés ">" permet d'ecrire et ecraser le contenue du fichier qui suivra la commande. si le fichier n'existe pas il le crée.
 ### Tâche 9
