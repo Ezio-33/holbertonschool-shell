@@ -29,13 +29,26 @@ commande: "tail -1 iacta >> iacta" Explication: "tail" affiche les derniere lign
 ### Tâche 10
 commande: "find -type f -name "*.js" -delete" Explication: "find" recherche les fichier "-type f" définit le type de fichier a rechercher "-name" le nom du fichier "*.js" pour definir tout se qui fini par .js
 ### Tâche 11
-
+commande: "find -mindepth 1 -type d | wc -l" Explication: "-mindepth" 1 indique à find de commencer la recherche dns le repertoire actuel, mais exclut le répertoire racine lui-même. "-type d" spécifie que nous cherchons des dossiers. "|" pipe prend la sortie de la commande find (la liste des répertoires) et la transmet comme entrée à la commande suivante. "wc" est utilisée pour compter les lignes, les mots et les caractères dans une entrée donnée."-l" spécifie que nous voulons compter les lignes.
 ### Tâche 12
-
+commande: "ls -t | head -10" Explication: : La commande "ls" est utilisée pour lister les fichiers et les répertoires dans un répertoire donné. L'option "-t" trie les éléments par date de modification, en affichant d'abord les plus récents. "|" pipe prend la sortie de la commande précédente et la transmet comme entrée à la commande suivante. La commande "head" est utilisée pour afficher les premières lignes (ou les premiers éléments) d'une entrée donnée. L'option "-10" spécifie que nous voulons afficher seulement les 10 premiers éléments de l'entrée.
 ### Tâche 13
-
+commande: "sort | uniq -u" Explication: "sort" est utilisée pour trier les lignes de texte dans un ordre spécifié. Par défaut, il trie dans l'ordre lexicographique.Le symbole pipe transmet le resultat comme entrée à la commande suivante."uniq" est utilisée pour filtrer ou rapporter les lignes en double à partir d'une entrée donnée. L'option "-u" ou "--unique" affiche uniquement les lignes qui ne sont pas en double.
 ### Tâche 14
-
+commande: "grep root /etc/passwd" Explication: grep est utilisée pour rechercher des occurrences d'un motif dans un fichier.
 ### Tâche 15
-
+commande: "" Explication: 
 ### Tâche 16
+commande: "" Explication:
+### Tâche 17
+commande: "" Explication:
+### Tâche 18
+commande: "" Explication:
+### Tâche 19
+commande: "" Explication:
+### Tâche 20
+commande: "" Explication:
+### Tâche 21
+commande: "" Explication:
+### Tâche 22
+commande: "" Explication: 
