@@ -41,14 +41,14 @@ commande: "grep -c bin /etc/passwd" Explication: "grep" pour rechercher "bin" da
 ### Tâche 16
 commande: "grep root /etc/passwd --after-context=3" Explication:Explication: "grep" est utilisée pour rechercher des occurrences d'un motif dans un fichier."--after-context=3 ": C'est une option de grep qui spécifie afficher un certain nombre de lignes après chaque occurrence.
 ### Tâche 17
-commande: "" Explication:
+commande: "grep -v bin /etc/passwd" Explication:"grep" est utilisée pour rechercher des occurrences d'un motif dans un fichier."-v"
 ### Tâche 18
-commande: "" Explication:
+commande: "grep '^[[:alpha:]]' /etc/ssh/sshd_config" Explication: "grep" est utilisée pour rechercher des occurrences d'un motif dans un fichier."^" signifie début de la ligne et "[[:alpha:]]" correspond à n'importe quelle lettre de l'alphabet. On aurrait aussi pus choisir l'argument "^[a-zA-Z]"
 ### Tâche 19
-commande: "" Explication:
+commande: "tr A Z | tr c e" Explication: "tr A Z " remplace toutes les lettre "A" par la lettre "Z"."tr c e "remplace toutes les lettre "c" par la lettre "e".
 ### Tâche 20
-commande: "" Explication:
+commande: "tr -d C | tr -d c" Explication: "-d" de la commande "tr" est utilisée pour indiquer que l'on souhaite supprimer les caractères spécifiés on aurrai aussi pus utiliser a la place de "tr", "sed", "awk", ou "cut"
 ### Tâche 21
-commande: "" Explication:
+commande: "rev" Explication: La commande rev est utilisée pour inverser les lignes dans le sens des caractères sous Linux et les systèmes de type Unix.
 ### Tâche 22
-commande: "" Explication: 
+commande: "cut -d':' -f1,6 /etc/passwd | sort" Explication:  "cut" est utilisée pour spécifier les champs à extraire de chaque ligne d'un fichier. "-d':' "spécifie le délimiteur à utiliser pour séparer les champs dans chaque ligne du fichier. L'argument fourni à l'option -f est une liste de numéros de champs ou de plages de champs, séparés par des virgules. "-f1,6" indique que nous voulons extraire le premier champ et le sixième champ de chaque ligne. "sort" trie les lignes en entrée.

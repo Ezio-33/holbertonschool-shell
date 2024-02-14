@@ -1,1 +1,2 @@
-20-hiago
+#!/bin/bash
+tr -d C | tr -d c
