@@ -1,0 +1,4 @@
+#!/bin/bash
+git clone https://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@github.com/Ezio-33/holbertonschool-shell.git
+git config --global user.email 8691@holbertonstudents.com
+git config --global user.name Ezio-33
