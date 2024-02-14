@@ -35,11 +35,11 @@ commande: "ls -1t | head -10" Explication: : La commande "ls" est utilisée pour
 ### Tâche 13
 commande: "sort | uniq -u" Explication: "sort" est utilisée pour trier les lignes de texte dans un ordre spécifié. Par défaut, il trie dans l'ordre lexicographique.Le symbole pipe transmet le resultat comme entrée à la commande suivante."uniq" est utilisée pour filtrer ou rapporter les lignes en double à partir d'une entrée donnée. L'option "-u" ou "--unique" affiche uniquement les lignes qui ne sont pas en double.
 ### Tâche 14
-commande: "grep root /etc/passwd" Explication: grep est utilisée pour rechercher des occurrences d'un motif dans un fichier.
+commande: "grep root /etc/passwd" Explication: "grep" est utilisée pour rechercher des occurrences d'un motif dans un fichier.
 ### Tâche 15
 commande: "grep -c bin /etc/passwd" Explication: "grep" pour rechercher "bin" dans le fichier "/etc/passwd". L'option "-c" de grep indique à grep de compter le nombre de lignes correspondantes a "bin" dans le fichier "/etc/passwd"
 ### Tâche 16
-commande: "" Explication:
+commande: "grep root /etc/passwd --after-context=3" Explication:Explication: "grep" est utilisée pour rechercher des occurrences d'un motif dans un fichier."--after-context=3 ": C'est une option de grep qui spécifie afficher un certain nombre de lignes après chaque occurrence.
 ### Tâche 17
 commande: "" Explication:
 ### Tâche 18
