@@ -20,13 +20,14 @@ j'ai utiliser la commande "head -n 10 /etc/passwd" Explication: head permetd'aff
 j'ai utiliser la commande "head -n 3 iacta | tail -n 1" Explication:  head -n 3 iacta": est utilisée pour afficher les premières lignes d'un fichier. Ici, -n 3 spécifie que nous voulons afficher les 3 premières lignes du fichier "iacta".
 "|" (pipe) prend la sortie de la commande précédente (dans ce cas, la sortie des 3 premières lignes de "iacta") et la transmet comme entrée à la commande suivante.
 "tail -n 1" est utilisée pour afficher les dernières lignes d'un fichier. 
-
+### Tâche 7
+commande "echo "Holberton School" > '\*\\'\''"Holberton School"\'\''\\*$\?\*\*\*\*\*:)'" "echo" permet d'ercire un texte choisi ">" permet d'ecrire et ecraser le contenue du fichier qui suivra la commande. si le fichier n'existe pas il le crée.
 ### Tâche 8
-
+commande: "ls -la > ls_cwd_content" "ls" liste le contenu du répertoire courant "l" Affiche les détails de chaque fichier ou répertoire. "a" Inclut les fichiers cachés ">" permet d'ecrire et ecraser le contenue du fichier qui suivra la commande. si le fichier n'existe pas il le crée.
 ### Tâche 9
-
+commande: "tail -1 iacta >> iacta" Explication: "tail" affiche les derniere ligne "-1" defini le nombrede ligne ">>" ajoute les ligne a la suite dans le fichier choisi.
 ### Tâche 10
-
+commande: "find -type f -name "*.js" -delete" Explication: "find" recherche les fichier "-type f" définit le type de fichier a rechercher "-name" le nom du fichier "*.js" pour definir tout se qui fini par .js
 ### Tâche 11
 
 ### Tâche 12
