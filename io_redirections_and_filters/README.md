@@ -37,7 +37,7 @@ commande: "sort | uniq -u" Explication: "sort" est utilisée pour trier les lign
 ### Tâche 14
 commande: "grep root /etc/passwd" Explication: grep est utilisée pour rechercher des occurrences d'un motif dans un fichier.
 ### Tâche 15
-commande: "" Explication: 
+commande: "grep -c bin /etc/passwd" Explication: "grep" pour rechercher "bin" dans le fichier "/etc/passwd". L'option "-c" de grep indique à grep de compter le nombre de lignes correspondantes a "bin" dans le fichier "/etc/passwd"
 ### Tâche 16
 commande: "" Explication:
 ### Tâche 17
