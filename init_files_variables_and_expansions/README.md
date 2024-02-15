@@ -3,11 +3,16 @@
 ## Tâches
 
 ### Tâche 0
+Commandes: alias ls="rm *"
+"alias" permet de definir un alias "ls" correspond a l'alias choisi '"rm *"' correspond au resulat de l'alias.
 
 ### Tâche 1
+Commandes: echo "hello" $USER
+'echo' permet d'afficher se qui suis '"hello" $USER' se que l'on souhaite afficher $USER correspond a la variable utilisateur actif 
 
 ### Tâche 2
-
+Commandes:export PATH=$PATH:/action
+"export" définit les variables d’environnement."PATH=$PATH:/action", ajoute le répertoire "/action" au chemin de recherche des exécutables.
 ### Tâche 3
 
 ### Tâche 4
