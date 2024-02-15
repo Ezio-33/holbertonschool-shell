@@ -53,4 +53,4 @@ tr -s ' ' '\n' : Cela transforme les espaces en sauts de ligne, ce qui signifie 
 ### Tâche 13
 Commande:printf "%0.2f\n" "$NUM"
 ### Tâche 14
-Commande:echo "$((2#$BINARY))"
+Commande:printf '%x\n' $DECIMAL
