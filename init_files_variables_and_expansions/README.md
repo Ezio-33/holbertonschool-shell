@@ -35,9 +35,9 @@ Commande: echo $(($TRUEKNOWLEDGE + 128))
 $(($TRUEKNOWLEDGE + 128)) : C'est une expression arithmétique shell qui ajoute la valeur de la variable $TRUEKNOWLEDGE à 128. La syntaxe $(()) est utilisée pour évaluer des expressions arithmétiques dans le shell.
 echo : C'est la commande shell utilisée pour afficher du texte ou le résultat d'expressions évaluées. Dans ce cas, elle affichera le résultat de l'expression arithmétique.
 ### Tâche 9
-Commande:
+Commande: echo $(($POWER / $DIVIDE))
 ### Tâche 10
-Commande:
+Commande:echo $(($BREATH ** $LOVE))
 ### Tâche 11
 Commande:
 ### Tâche 12
