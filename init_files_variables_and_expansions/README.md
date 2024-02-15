@@ -39,9 +39,17 @@ Commande: echo $(($POWER / $DIVIDE))
 ### Tâche 10
 Commande:echo $(($BREATH ** $LOVE))
 ### Tâche 11
-Commande:
+Commande:echo "$((2#$BINARY))"
+La commande permet de convertire en nombre en base 2 en decimal
+	binaire=$([##2]décimal))
+	hex=$(([##16]décimal))
+	hex=$([##16]2#$binaire))
+	décimal=$((2#$binaire))
 ### Tâche 12
-Commande:
+Commande:echo {a..z}{a..z} | tr -d 'o' | tr -s ' ' '\n'
+{a..z} : Cela génère une séquence de lettres minuscules de "a" à "z". Cette séquence est utilisée deux fois pour générer toutes les combinaisons possibles de deux lettres.
+tr -d 'o' : Cela supprime toutes les occurrences de la lettre "o" de la sortie générée précédemment. Cela garantit que les combinaisons contenant la lettre "o" ne seront pas incluses dans la sortie.
+tr -s ' ' '\n' : Cela transforme les espaces en sauts de ligne, ce qui signifie que chaque combinaison sera imprimée sur une nouvelle ligne.
 ### Tâche 13
 Commande:
 ### Tâche 14

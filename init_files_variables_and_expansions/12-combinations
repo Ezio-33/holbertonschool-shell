@@ -1,1 +1,2 @@
-12-combi
+#!/bin/bash
+echo {a..z}{a..z} | tr -d 'o' | tr -s ' ' '\n'
