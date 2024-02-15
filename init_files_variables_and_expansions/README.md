@@ -25,11 +25,15 @@ printenv
 Commande: set
 set est utilisée pour afficher à la fois les variables d'environnement et les variables locales dans l'environnement d'exécution du shell.
 ### Tâche 6
-Commande:
+Commande: BEST="School"
+Définit la variable BEST avec la valeur "School" et l'exporte dans l'environnement, ce qui signifie que la variable sera disponible pour tous les processus enfants du processus courant.
 ### Tâche 7
-Commande:
+Commande:export BEST=School
+Définit également la variable BEST avec la valeur "School", mais ne l'exporte pas dans l'environnement. Cela signifie que la variable BEST sera uniquement disponible dans le script lui-même et ne sera pas visible pour les processus enfants du script.
 ### Tâche 8
-Commande:
+Commande: echo $(($TRUEKNOWLEDGE + 128))
+$(($TRUEKNOWLEDGE + 128)) : C'est une expression arithmétique shell qui ajoute la valeur de la variable $TRUEKNOWLEDGE à 128. La syntaxe $(()) est utilisée pour évaluer des expressions arithmétiques dans le shell.
+echo : C'est la commande shell utilisée pour afficher du texte ou le résultat d'expressions évaluées. Dans ce cas, elle affichera le résultat de l'expression arithmétique.
 ### Tâche 9
 Commande:
 ### Tâche 10
