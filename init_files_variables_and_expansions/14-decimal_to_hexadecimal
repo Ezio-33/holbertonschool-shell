@@ -1,1 +1,2 @@
-14-decimal_to_hexadecimal
+#!/bin/bash
+printf '%x\n' $DECIMAL

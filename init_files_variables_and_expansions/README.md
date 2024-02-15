@@ -51,6 +51,6 @@ Commande:echo {a..z}{a..z} | tr -d 'o' | tr -s ' ' '\n'
 tr -d 'o' : Cela supprime toutes les occurrences de la lettre "o" de la sortie générée précédemment. Cela garantit que les combinaisons contenant la lettre "o" ne seront pas incluses dans la sortie.
 tr -s ' ' '\n' : Cela transforme les espaces en sauts de ligne, ce qui signifie que chaque combinaison sera imprimée sur une nouvelle ligne.
 ### Tâche 13
-Commande:
+Commande:printf "%0.2f\n" "$NUM"
 ### Tâche 14
-Commande:
+Commande:echo "$((2#$BINARY))"
