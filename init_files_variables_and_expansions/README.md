@@ -22,21 +22,23 @@ Commandes:export PATH=$PATH:/action
 Commande: printenv
 printenv
 ### Tâche 5
-
+Commande: set
+set est utilisée pour afficher à la fois les variables d'environnement et les variables locales dans l'environnement d'exécution du shell.
 ### Tâche 6
-
+Commande:
 ### Tâche 7
-
+Commande:
 ### Tâche 8
-
+Commande:
 ### Tâche 9
-
+Commande:
 ### Tâche 10
-
+Commande:
 ### Tâche 11
-
+Commande:
 ### Tâche 12
-
+Commande:
 ### Tâche 13
-
+Commande:
 ### Tâche 14
+Commande:

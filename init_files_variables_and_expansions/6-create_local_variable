@@ -1,1 +1,2 @@
-6-create_local_variable
+#!/bin/bash
+echo $BEST $School
